@@ -1,6 +1,6 @@
 # ncmpcpp with cover-art and "Mopidy-Spotify" (yea if u use mopidy) support
 
-Setup for displaying cover art in ncmpcpp with Mopidy-Spotify Support and Song Change Notifications with cover art.
+Setup for displaying cover art in ncmpcpp with Mopidy-Spotify Support and Song Change Notifications with cover art !! <3
 
 ## Dependencies
 
@@ -17,4 +17,3 @@ Drop all the files in your `~/.config/ncmpcpp` directory and add copy  the ```nc
 
 
 Run it with `ncmp` !
-# ncmpcpp-config

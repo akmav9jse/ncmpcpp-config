@@ -17,3 +17,4 @@ Drop all the files in your `~/.config/ncmpcpp` directory and add copy  the ```nc
 
 
 Run it with `ncmp` !
+# ncmpcpp-config

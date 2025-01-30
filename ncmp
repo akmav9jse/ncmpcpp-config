@@ -1,0 +1,8 @@
+#!/bin/bash
+
+tmux -u new-session -d "ncmpcpp --config='~/.config/ncmpcpp/catalog.conf'"
+tmux split-window -h -p 15 "clear && cover" && tmux send-keys PageDown
+tmux -u split-pane -v -p 25 ncmpcpp --config='~/.config/ncmpcpp/visualizer.conf' && tmux send-keys 8
+
+
+tmux -u attach-session \; select-pane -t 2
